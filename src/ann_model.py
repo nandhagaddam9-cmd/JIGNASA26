@@ -165,16 +165,26 @@ class ANNDemandForecaster:
         return np.maximum(0.0, preds)
 
     def save(self, filepath: str):
-        """Saves model weights and scaler."""
+        """Saves model weights, scaler, and training loss history."""
         os.makedirs(os.path.dirname(filepath), exist_ok=True)
         torch.save(
             {
                 "model_state": self.model.state_dict() if self.model else None,
                 "scaler": self.scaler,
                 "feature_names": self.feature_names,
+                "train_losses": self.train_losses,
+                "val_losses": self.val_losses,
             },
             filepath,
         )
+        # Also export history as CSV for dashboard plotting
+        hist_df = pd.DataFrame({
+            "epoch": list(range(1, len(self.train_losses) + 1)),
+            "train_loss": self.train_losses,
+            "val_loss": self.val_losses if len(self.val_losses) == len(self.train_losses) else [None] * len(self.train_losses),
+        })
+        hist_csv_path = os.path.join(os.path.dirname(filepath), "ann_training_history.csv")
+        hist_df.to_csv(hist_csv_path, index=False)
 
     def load(self, filepath: str):
         """Loads saved weights and scaler."""

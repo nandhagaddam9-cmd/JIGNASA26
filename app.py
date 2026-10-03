@@ -308,3 +308,33 @@ with tab_benchmark:
         st.plotly_chart(fig_bar, use_container_width=True)
 
         st.info("📌 **Stock-Out-Oriented Error Loss (SOEL)** penalizes under-forecasting **3.5x more** than over-forecasting, reflecting true retail economics where running out of stock is far more damaging than holding safety inventory.")
+
+        # ANN Training Loss Convergence Curve (Proof of Training!)
+        history_path = os.path.join(DATA_DIR, "ann_training_history.csv")
+        if os.path.exists(history_path):
+            df_hist = pd.read_csv(history_path)
+            st.markdown("---")
+            st.subheader("🔬 Neural Network Training Loss & Convergence Proof")
+            st.caption("Epoch-by-epoch loss reduction demonstrating gradient descent optimization and early stopping without overfitting.")
+            
+            fig_loss = go.Figure()
+            fig_loss.add_trace(go.Scatter(
+                x=df_hist["epoch"], y=df_hist["train_loss"],
+                mode="lines+markers", name="Training Loss (Huber)",
+                line=dict(color="#2563eb", width=2)
+            ))
+            if "val_loss" in df_hist.columns and df_hist["val_loss"].notna().any():
+                fig_loss.add_trace(go.Scatter(
+                    x=df_hist["epoch"], y=df_hist["val_loss"],
+                    mode="lines+markers", name="Validation Loss (Out-of-Time)",
+                    line=dict(color="#10b981", width=2, dash="dash")
+                ))
+            fig_loss.update_layout(
+                title="Deep Learning ANN Convergence: Epoch vs Huber Loss",
+                xaxis_title="Epoch",
+                yaxis_title="Huber Loss",
+                template="plotly_white",
+                height=380,
+                hovermode="x unified"
+            )
+            st.plotly_chart(fig_loss, use_container_width=True)
