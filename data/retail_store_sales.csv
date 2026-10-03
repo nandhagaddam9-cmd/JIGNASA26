@@ -729,6 +729,7 @@ date,sku_id,product_name,category,velocity_class,lead_time_days,shelf_life_days,
 2025-12-28,SKU_FAST_001,Fresh Whole Milk 1L,Dairy,Fast,2,7,2.8,2.8,0.0,0,0,150,150,0,910,760,0
 2025-12-29,SKU_FAST_001,Fresh Whole Milk 1L,Dairy,Fast,2,7,2.8,2.8,0.0,0,0,123,123,0,760,637,0
 2025-12-30,SKU_FAST_001,Fresh Whole Milk 1L,Dairy,Fast,2,7,2.8,2.8,0.0,0,0,82,82,0,637,555,0
+2025-12-31,SKU_FAST_001,Fresh Whole Milk 1L,Dairy,Fast,2,7,2.8,2.8,0.0,0,0,88,88,0,555,467,0
 2024-01-01,SKU_FAST_002,Sliced White Bread 500g,Bakery,Fast,2,5,2.2,2.2,0.0,0,0,68,68,0,390,322,0
 2024-01-02,SKU_FAST_002,Sliced White Bread 500g,Bakery,Fast,2,5,2.2,2.2,0.0,0,0,66,66,0,322,256,0
 2024-01-03,SKU_FAST_002,Sliced White Bread 500g,Bakery,Fast,2,5,2.2,2.2,0.0,0,0,70,70,0,256,186,0
@@ -1459,6 +1460,7 @@ date,sku_id,product_name,category,velocity_class,lead_time_days,shelf_life_days,
 2025-12-28,SKU_FAST_002,Sliced White Bread 500g,Bakery,Fast,2,5,2.2,2.2,0.0,0,0,123,123,0,790,667,0
 2025-12-29,SKU_FAST_002,Sliced White Bread 500g,Bakery,Fast,2,5,2.2,1.32,0.4,1,1,145,145,0,667,522,0
 2025-12-30,SKU_FAST_002,Sliced White Bread 500g,Bakery,Fast,2,5,2.2,1.32,0.4,1,2,123,123,0,522,399,0
+2025-12-31,SKU_FAST_002,Sliced White Bread 500g,Bakery,Fast,2,5,2.2,1.32,0.4,1,2,120,120,0,399,279,0
 2024-01-01,SKU_FAST_003,Farm Fresh Eggs 12-Pack,Dairy,Fast,3,21,4.5,4.5,0.0,0,0,53,53,0,385,332,0
 2024-01-02,SKU_FAST_003,Farm Fresh Eggs 12-Pack,Dairy,Fast,3,21,4.5,4.5,0.0,0,0,58,58,0,332,274,0
 2024-01-03,SKU_FAST_003,Farm Fresh Eggs 12-Pack,Dairy,Fast,3,21,4.5,4.5,0.0,0,0,53,53,0,274,221,0
@@ -2189,6 +2191,7 @@ date,sku_id,product_name,category,velocity_class,lead_time_days,shelf_life_days,
 2025-12-28,SKU_FAST_003,Farm Fresh Eggs 12-Pack,Dairy,Fast,3,21,4.5,4.5,0.0,0,0,113,113,0,336,223,0
 2025-12-29,SKU_FAST_003,Farm Fresh Eggs 12-Pack,Dairy,Fast,3,21,4.5,4.5,0.0,0,0,82,82,0,223,141,0
 2025-12-30,SKU_FAST_003,Farm Fresh Eggs 12-Pack,Dairy,Fast,3,21,4.5,4.5,0.0,0,0,64,64,0,141,77,0
+2025-12-31,SKU_FAST_003,Farm Fresh Eggs 12-Pack,Dairy,Fast,3,21,4.5,4.5,0.0,0,0,70,70,0,77,7,0
 2024-01-01,SKU_FAST_004,Diet Cola 2L,Beverages,Fast,3,180,2.5,2.5,0.0,0,0,55,55,0,350,295,0
 2024-01-02,SKU_FAST_004,Diet Cola 2L,Beverages,Fast,3,180,2.5,2.5,0.0,0,0,57,57,0,295,238,0
 2024-01-03,SKU_FAST_004,Diet Cola 2L,Beverages,Fast,3,180,2.5,2.5,0.0,0,0,64,64,0,238,174,0
@@ -2919,6 +2922,7 @@ date,sku_id,product_name,category,velocity_class,lead_time_days,shelf_life_days,
 2025-12-28,SKU_FAST_004,Diet Cola 2L,Beverages,Fast,3,180,2.5,2.5,0.0,0,0,104,104,0,410,306,0
 2025-12-29,SKU_FAST_004,Diet Cola 2L,Beverages,Fast,3,180,2.5,2.5,0.0,0,0,65,65,0,306,241,0
 2025-12-30,SKU_FAST_004,Diet Cola 2L,Beverages,Fast,3,180,2.5,1.5,0.4,1,1,117,117,0,241,124,0
+2025-12-31,SKU_FAST_004,Diet Cola 2L,Beverages,Fast,3,180,2.5,1.5,0.4,1,1,143,124,0,124,0,1
 2024-01-01,SKU_FAST_005,Organic Bananas 1kg,Produce,Fast,2,5,1.9,1.62,0.15,1,1,116,116,0,480,364,0
 2024-01-02,SKU_FAST_005,Organic Bananas 1kg,Produce,Fast,2,5,1.9,1.62,0.15,1,2,104,104,0,364,260,0
 2024-01-03,SKU_FAST_005,Organic Bananas 1kg,Produce,Fast,2,5,1.9,1.9,0.0,0,0,56,56,0,260,204,0
@@ -3649,6 +3653,7 @@ date,sku_id,product_name,category,velocity_class,lead_time_days,shelf_life_days,
 2025-12-28,SKU_FAST_005,Organic Bananas 1kg,Produce,Fast,2,5,1.9,1.9,0.0,0,0,146,146,0,938,792,0
 2025-12-29,SKU_FAST_005,Organic Bananas 1kg,Produce,Fast,2,5,1.9,1.9,0.0,0,0,100,100,0,792,692,0
 2025-12-30,SKU_FAST_005,Organic Bananas 1kg,Produce,Fast,2,5,1.9,1.9,0.0,0,0,110,110,0,692,582,0
+2025-12-31,SKU_FAST_005,Organic Bananas 1kg,Produce,Fast,2,5,1.9,1.9,0.0,0,0,106,106,0,582,476,0
 2024-01-01,SKU_FAST_006,Salted Potato Chips 200g,Snacks,Fast,4,90,3.2,1.92,0.4,1,1,89,89,0,360,271,0
 2024-01-02,SKU_FAST_006,Salted Potato Chips 200g,Snacks,Fast,4,90,3.2,1.92,0.4,1,2,76,76,0,271,195,0
 2024-01-03,SKU_FAST_006,Salted Potato Chips 200g,Snacks,Fast,4,90,3.2,2.72,0.15,1,3,50,50,0,195,145,0
@@ -4379,6 +4384,7 @@ date,sku_id,product_name,category,velocity_class,lead_time_days,shelf_life_days,
 2025-12-28,SKU_FAST_006,Salted Potato Chips 200g,Snacks,Fast,4,90,3.2,3.2,0.0,0,0,81,81,0,1414,1333,0
 2025-12-29,SKU_FAST_006,Salted Potato Chips 200g,Snacks,Fast,4,90,3.2,3.2,0.0,0,0,67,67,0,1333,1266,0
 2025-12-30,SKU_FAST_006,Salted Potato Chips 200g,Snacks,Fast,4,90,3.2,3.2,0.0,0,0,65,65,0,1266,1201,0
+2025-12-31,SKU_FAST_006,Salted Potato Chips 200g,Snacks,Fast,4,90,3.2,3.2,0.0,0,0,62,62,0,1201,1139,0
 2024-01-01,SKU_FAST_007,Natural Mineral Water 1.5L,Beverages,Fast,2,365,1.1,1.1,0.0,0,0,101,101,0,540,439,0
 2024-01-02,SKU_FAST_007,Natural Mineral Water 1.5L,Beverages,Fast,2,365,1.1,1.1,0.0,0,0,108,108,0,439,331,0
 2024-01-03,SKU_FAST_007,Natural Mineral Water 1.5L,Beverages,Fast,2,365,1.1,1.1,0.0,0,0,102,102,0,331,229,0
@@ -5109,6 +5115,7 @@ date,sku_id,product_name,category,velocity_class,lead_time_days,shelf_life_days,
 2025-12-28,SKU_FAST_007,Natural Mineral Water 1.5L,Beverages,Fast,2,365,1.1,1.1,0.0,0,0,176,176,0,417,241,0
 2025-12-29,SKU_FAST_007,Natural Mineral Water 1.5L,Beverages,Fast,2,365,1.1,1.1,0.0,0,0,127,127,0,241,114,0
 2025-12-30,SKU_FAST_007,Natural Mineral Water 1.5L,Beverages,Fast,2,365,1.1,1.1,0.0,0,0,132,132,0,744,612,0
+2025-12-31,SKU_FAST_007,Natural Mineral Water 1.5L,Beverages,Fast,2,365,1.1,1.1,0.0,0,0,163,163,0,612,449,0
 2024-01-01,SKU_FAST_008,Plain Greek Yogurt 500g,Dairy,Fast,3,14,3.6,3.6,0.0,0,0,57,57,0,280,223,0
 2024-01-02,SKU_FAST_008,Plain Greek Yogurt 500g,Dairy,Fast,3,14,3.6,3.6,0.0,0,0,42,42,0,223,181,0
 2024-01-03,SKU_FAST_008,Plain Greek Yogurt 500g,Dairy,Fast,3,14,3.6,3.6,0.0,0,0,39,39,0,181,142,0
@@ -5839,6 +5846,7 @@ date,sku_id,product_name,category,velocity_class,lead_time_days,shelf_life_days,
 2025-12-28,SKU_FAST_008,Plain Greek Yogurt 500g,Dairy,Fast,3,14,3.6,3.6,0.0,0,0,81,81,0,514,433,0
 2025-12-29,SKU_FAST_008,Plain Greek Yogurt 500g,Dairy,Fast,3,14,3.6,3.6,0.0,0,0,57,57,0,433,376,0
 2025-12-30,SKU_FAST_008,Plain Greek Yogurt 500g,Dairy,Fast,3,14,3.6,3.6,0.0,0,0,50,50,0,376,326,0
+2025-12-31,SKU_FAST_008,Plain Greek Yogurt 500g,Dairy,Fast,3,14,3.6,3.6,0.0,0,0,55,55,0,326,271,0
 2024-01-01,SKU_MED_001,Premium Ground Coffee 250g,Beverages,Medium,4,180,7.5,6.0,0.2,1,1,41,41,0,192,151,0
 2024-01-02,SKU_MED_001,Premium Ground Coffee 250g,Beverages,Medium,4,180,7.5,5.25,0.3,1,2,43,43,0,151,108,0
 2024-01-03,SKU_MED_001,Premium Ground Coffee 250g,Beverages,Medium,4,180,7.5,7.5,0.0,0,0,22,22,0,108,86,0
@@ -6569,6 +6577,7 @@ date,sku_id,product_name,category,velocity_class,lead_time_days,shelf_life_days,
 2025-12-28,SKU_MED_001,Premium Ground Coffee 250g,Beverages,Medium,4,180,7.5,7.5,0.0,0,0,46,46,0,483,437,0
 2025-12-29,SKU_MED_001,Premium Ground Coffee 250g,Beverages,Medium,4,180,7.5,7.5,0.0,0,0,39,39,0,437,398,0
 2025-12-30,SKU_MED_001,Premium Ground Coffee 250g,Beverages,Medium,4,180,7.5,6.0,0.2,1,1,49,49,0,398,349,0
+2025-12-31,SKU_MED_001,Premium Ground Coffee 250g,Beverages,Medium,4,180,7.5,6.0,0.2,1,1,45,45,0,349,304,0
 2024-01-01,SKU_MED_002,Crunchy Breakfast Cereal 400g,Pantry,Medium,4,180,4.9,4.9,0.0,0,0,33,33,0,224,191,0
 2024-01-02,SKU_MED_002,Crunchy Breakfast Cereal 400g,Pantry,Medium,4,180,4.9,4.9,0.0,0,0,31,31,0,191,160,0
 2024-01-03,SKU_MED_002,Crunchy Breakfast Cereal 400g,Pantry,Medium,4,180,4.9,3.92,0.2,1,1,48,48,0,160,112,0
@@ -7299,6 +7308,7 @@ date,sku_id,product_name,category,velocity_class,lead_time_days,shelf_life_days,
 2025-12-28,SKU_MED_002,Crunchy Breakfast Cereal 400g,Pantry,Medium,4,180,4.9,4.9,0.0,0,0,48,48,0,580,532,0
 2025-12-29,SKU_MED_002,Crunchy Breakfast Cereal 400g,Pantry,Medium,4,180,4.9,4.9,0.0,0,0,37,37,0,532,495,0
 2025-12-30,SKU_MED_002,Crunchy Breakfast Cereal 400g,Pantry,Medium,4,180,4.9,4.9,0.0,0,0,38,38,0,495,457,0
+2025-12-31,SKU_MED_002,Crunchy Breakfast Cereal 400g,Pantry,Medium,4,180,4.9,4.9,0.0,0,0,41,41,0,457,416,0
 2024-01-01,SKU_MED_003,Extra Virgin Olive Oil 750ml,Pantry,Medium,5,365,11.5,11.5,0.0,0,0,18,18,0,162,144,0
 2024-01-02,SKU_MED_003,Extra Virgin Olive Oil 750ml,Pantry,Medium,5,365,11.5,11.5,0.0,0,0,21,21,0,144,123,0
 2024-01-03,SKU_MED_003,Extra Virgin Olive Oil 750ml,Pantry,Medium,5,365,11.5,11.5,0.0,0,0,24,24,0,123,99,0
@@ -8029,6 +8039,7 @@ date,sku_id,product_name,category,velocity_class,lead_time_days,shelf_life_days,
 2025-12-28,SKU_MED_003,Extra Virgin Olive Oil 750ml,Pantry,Medium,5,365,11.5,11.5,0.0,0,0,37,37,0,37,0,0
 2025-12-29,SKU_MED_003,Extra Virgin Olive Oil 750ml,Pantry,Medium,5,365,11.5,11.5,0.0,0,0,25,25,0,180,155,0
 2025-12-30,SKU_MED_003,Extra Virgin Olive Oil 750ml,Pantry,Medium,5,365,11.5,11.5,0.0,0,0,24,24,0,335,311,0
+2025-12-31,SKU_MED_003,Extra Virgin Olive Oil 750ml,Pantry,Medium,5,365,11.5,11.5,0.0,0,0,22,22,0,311,289,0
 2024-01-01,SKU_MED_004,Concentrated Laundry Detergent 1.5L,Household,Medium,4,365,13.9,13.9,0.0,0,0,25,25,0,176,151,0
 2024-01-02,SKU_MED_004,Concentrated Laundry Detergent 1.5L,Household,Medium,4,365,13.9,13.9,0.0,0,0,23,23,0,151,128,0
 2024-01-03,SKU_MED_004,Concentrated Laundry Detergent 1.5L,Household,Medium,4,365,13.9,13.9,0.0,0,0,28,28,0,128,100,0
@@ -8759,6 +8770,7 @@ date,sku_id,product_name,category,velocity_class,lead_time_days,shelf_life_days,
 2025-12-28,SKU_MED_004,Concentrated Laundry Detergent 1.5L,Household,Medium,4,365,13.9,11.12,0.2,1,1,70,70,0,598,528,0
 2025-12-29,SKU_MED_004,Concentrated Laundry Detergent 1.5L,Household,Medium,4,365,13.9,11.12,0.2,1,2,46,46,0,528,482,0
 2025-12-30,SKU_MED_004,Concentrated Laundry Detergent 1.5L,Household,Medium,4,365,13.9,11.12,0.2,1,3,36,36,0,482,446,0
+2025-12-31,SKU_MED_004,Concentrated Laundry Detergent 1.5L,Household,Medium,4,365,13.9,11.12,0.2,1,3,33,33,0,446,413,0
 2024-01-01,SKU_MED_005,Dark Chocolate Bar 100g,Snacks,Medium,3,180,2.9,2.9,0.0,0,0,34,34,0,210,176,0
 2024-01-02,SKU_MED_005,Dark Chocolate Bar 100g,Snacks,Medium,3,180,2.9,2.9,0.0,0,0,30,30,0,176,146,0
 2024-01-03,SKU_MED_005,Dark Chocolate Bar 100g,Snacks,Medium,3,180,2.9,2.9,0.0,0,0,34,34,0,146,112,0
@@ -9489,6 +9501,7 @@ date,sku_id,product_name,category,velocity_class,lead_time_days,shelf_life_days,
 2025-12-28,SKU_MED_005,Dark Chocolate Bar 100g,Snacks,Medium,3,180,2.9,2.9,0.0,0,0,60,60,0,154,94,0
 2025-12-29,SKU_MED_005,Dark Chocolate Bar 100g,Snacks,Medium,3,180,2.9,2.9,0.0,0,0,36,36,0,94,58,0
 2025-12-30,SKU_MED_005,Dark Chocolate Bar 100g,Snacks,Medium,3,180,2.9,2.9,0.0,0,0,43,43,0,58,15,0
+2025-12-31,SKU_MED_005,Dark Chocolate Bar 100g,Snacks,Medium,3,180,2.9,2.9,0.0,0,0,44,15,0,15,0,1
 2024-01-01,SKU_MED_006,Italian Penne Pasta 500g,Pantry,Medium,4,365,1.7,1.7,0.0,0,0,43,43,0,280,237,0
 2024-01-02,SKU_MED_006,Italian Penne Pasta 500g,Pantry,Medium,4,365,1.7,1.7,0.0,0,0,41,41,0,237,196,0
 2024-01-03,SKU_MED_006,Italian Penne Pasta 500g,Pantry,Medium,4,365,1.7,1.7,0.0,0,0,40,40,0,196,156,0
@@ -10219,6 +10232,7 @@ date,sku_id,product_name,category,velocity_class,lead_time_days,shelf_life_days,
 2025-12-28,SKU_MED_006,Italian Penne Pasta 500g,Pantry,Medium,4,365,1.7,1.7,0.0,0,0,74,74,0,565,491,0
 2025-12-29,SKU_MED_006,Italian Penne Pasta 500g,Pantry,Medium,4,365,1.7,1.7,0.0,0,0,47,47,0,491,444,0
 2025-12-30,SKU_MED_006,Italian Penne Pasta 500g,Pantry,Medium,4,365,1.7,1.7,0.0,0,0,55,55,0,444,389,0
+2025-12-31,SKU_MED_006,Italian Penne Pasta 500g,Pantry,Medium,4,365,1.7,1.7,0.0,0,0,39,39,0,389,350,0
 2024-01-01,SKU_MED_007,All-in-1 Dishwasher Pods 30ct,Household,Medium,5,365,12.5,12.5,0.0,0,0,15,15,0,144,129,0
 2024-01-02,SKU_MED_007,All-in-1 Dishwasher Pods 30ct,Household,Medium,5,365,12.5,12.5,0.0,0,0,18,18,0,129,111,0
 2024-01-03,SKU_MED_007,All-in-1 Dishwasher Pods 30ct,Household,Medium,5,365,12.5,12.5,0.0,0,0,15,15,0,111,96,0
@@ -10949,6 +10963,7 @@ date,sku_id,product_name,category,velocity_class,lead_time_days,shelf_life_days,
 2025-12-28,SKU_MED_007,All-in-1 Dishwasher Pods 30ct,Household,Medium,5,365,12.5,12.5,0.0,0,0,28,28,0,555,527,0
 2025-12-29,SKU_MED_007,All-in-1 Dishwasher Pods 30ct,Household,Medium,5,365,12.5,12.5,0.0,0,0,21,21,0,687,666,0
 2025-12-30,SKU_MED_007,All-in-1 Dishwasher Pods 30ct,Household,Medium,5,365,12.5,12.5,0.0,0,0,22,22,0,666,644,0
+2025-12-31,SKU_MED_007,All-in-1 Dishwasher Pods 30ct,Household,Medium,5,365,12.5,12.5,0.0,0,0,16,16,0,644,628,0
 2024-01-01,SKU_MED_008,Soft Toilet Paper 6-Mega Rolls,Household,Medium,3,365,8.9,8.9,0.0,0,0,35,35,0,224,189,0
 2024-01-02,SKU_MED_008,Soft Toilet Paper 6-Mega Rolls,Household,Medium,3,365,8.9,8.9,0.0,0,0,30,30,0,189,159,0
 2024-01-03,SKU_MED_008,Soft Toilet Paper 6-Mega Rolls,Household,Medium,3,365,8.9,8.9,0.0,0,0,31,31,0,159,128,0
@@ -11679,6 +11694,7 @@ date,sku_id,product_name,category,velocity_class,lead_time_days,shelf_life_days,
 2025-12-28,SKU_MED_008,Soft Toilet Paper 6-Mega Rolls,Household,Medium,3,365,8.9,8.9,0.0,0,0,65,65,0,151,86,0
 2025-12-29,SKU_MED_008,Soft Toilet Paper 6-Mega Rolls,Household,Medium,3,365,8.9,8.9,0.0,0,0,47,47,0,86,39,0
 2025-12-30,SKU_MED_008,Soft Toilet Paper 6-Mega Rolls,Household,Medium,3,365,8.9,8.9,0.0,0,0,47,39,8,39,0,1
+2025-12-31,SKU_MED_008,Soft Toilet Paper 6-Mega Rolls,Household,Medium,3,365,8.9,8.9,0.0,0,0,35,10,0,10,0,1
 2025-12-01,SKU_NEW_001,Matcha Sparkling Green Tea 330ml,Beverages,New,3,90,3.4,3.4,0.0,0,0,35,35,0,196,161,0
 2025-12-02,SKU_NEW_001,Matcha Sparkling Green Tea 330ml,Beverages,New,3,90,3.4,3.4,0.0,0,0,31,31,0,161,130,0
 2025-12-03,SKU_NEW_001,Matcha Sparkling Green Tea 330ml,Beverages,New,3,90,3.4,3.4,0.0,0,0,38,38,0,130,92,0
@@ -11709,6 +11725,7 @@ date,sku_id,product_name,category,velocity_class,lead_time_days,shelf_life_days,
 2025-12-28,SKU_NEW_001,Matcha Sparkling Green Tea 330ml,Beverages,New,3,90,3.4,3.4,0.0,0,0,51,51,0,539,488,0
 2025-12-29,SKU_NEW_001,Matcha Sparkling Green Tea 330ml,Beverages,New,3,90,3.4,3.4,0.0,0,0,32,32,0,488,456,0
 2025-12-30,SKU_NEW_001,Matcha Sparkling Green Tea 330ml,Beverages,New,3,90,3.4,3.4,0.0,0,0,41,41,0,456,415,0
+2025-12-31,SKU_NEW_001,Matcha Sparkling Green Tea 330ml,Beverages,New,3,90,3.4,3.4,0.0,0,0,34,34,0,415,381,0
 2025-12-01,SKU_NEW_002,Keto Almond Crunch Bar 50g,Snacks,New,3,120,2.7,2.7,0.0,0,0,32,32,0,154,122,0
 2025-12-02,SKU_NEW_002,Keto Almond Crunch Bar 50g,Snacks,New,3,120,2.7,2.7,0.0,0,0,31,31,0,122,91,0
 2025-12-03,SKU_NEW_002,Keto Almond Crunch Bar 50g,Snacks,New,3,120,2.7,2.7,0.0,0,0,27,27,0,91,64,0
@@ -11739,6 +11756,7 @@ date,sku_id,product_name,category,velocity_class,lead_time_days,shelf_life_days,
 2025-12-28,SKU_NEW_002,Keto Almond Crunch Bar 50g,Snacks,New,3,120,2.7,2.7,0.0,0,0,45,45,0,394,349,0
 2025-12-29,SKU_NEW_002,Keto Almond Crunch Bar 50g,Snacks,New,3,120,2.7,2.7,0.0,0,0,29,29,0,349,320,0
 2025-12-30,SKU_NEW_002,Keto Almond Crunch Bar 50g,Snacks,New,3,120,2.7,2.7,0.0,0,0,24,24,0,320,296,0
+2025-12-31,SKU_NEW_002,Keto Almond Crunch Bar 50g,Snacks,New,3,120,2.7,2.7,0.0,0,0,25,25,0,296,271,0
 2025-12-01,SKU_NEW_003,Barista Oat Milk 1L,Dairy,New,2,60,3.8,3.8,0.0,0,0,39,39,0,228,189,0
 2025-12-02,SKU_NEW_003,Barista Oat Milk 1L,Dairy,New,2,60,3.8,3.8,0.0,0,0,51,51,0,189,138,0
 2025-12-03,SKU_NEW_003,Barista Oat Milk 1L,Dairy,New,2,60,3.8,3.8,0.0,0,0,48,48,0,138,90,0
@@ -11769,6 +11787,7 @@ date,sku_id,product_name,category,velocity_class,lead_time_days,shelf_life_days,
 2025-12-28,SKU_NEW_003,Barista Oat Milk 1L,Dairy,New,2,60,3.8,3.8,0.0,0,0,81,81,0,366,285,0
 2025-12-29,SKU_NEW_003,Barista Oat Milk 1L,Dairy,New,2,60,3.8,3.8,0.0,0,0,53,53,0,285,232,0
 2025-12-30,SKU_NEW_003,Barista Oat Milk 1L,Dairy,New,2,60,3.8,3.8,0.0,0,0,52,52,0,232,180,0
+2025-12-31,SKU_NEW_003,Barista Oat Milk 1L,Dairy,New,2,60,3.8,3.8,0.0,0,0,44,44,0,180,136,0
 2024-01-01,SKU_SLOW_001,Organic White Truffle Oil 100ml,Gourmet,Slow,7,365,24.0,24.0,0.0,0,0,1,1,0,13,12,0
 2024-01-02,SKU_SLOW_001,Organic White Truffle Oil 100ml,Gourmet,Slow,7,365,24.0,24.0,0.0,0,0,1,1,0,12,11,0
 2024-01-03,SKU_SLOW_001,Organic White Truffle Oil 100ml,Gourmet,Slow,7,365,24.0,24.0,0.0,0,0,1,1,0,11,10,0
@@ -12499,6 +12518,7 @@ date,sku_id,product_name,category,velocity_class,lead_time_days,shelf_life_days,
 2025-12-28,SKU_SLOW_001,Organic White Truffle Oil 100ml,Gourmet,Slow,7,365,24.0,24.0,0.0,0,0,3,3,0,18,15,0
 2025-12-29,SKU_SLOW_001,Organic White Truffle Oil 100ml,Gourmet,Slow,7,365,24.0,24.0,0.0,0,0,3,3,0,15,12,0
 2025-12-30,SKU_SLOW_001,Organic White Truffle Oil 100ml,Gourmet,Slow,7,365,24.0,24.0,0.0,0,0,3,3,0,12,9,0
+2025-12-31,SKU_SLOW_001,Organic White Truffle Oil 100ml,Gourmet,Slow,7,365,24.0,24.0,0.0,0,0,1,1,0,10,9,0
 2024-01-01,SKU_SLOW_002,Pure Spanish Saffron Strands 1g,Gourmet,Slow,7,365,18.5,18.5,0.0,0,0,2,2,0,8,6,0
 2024-01-02,SKU_SLOW_002,Pure Spanish Saffron Strands 1g,Gourmet,Slow,7,365,18.5,18.5,0.0,0,0,0,0,0,6,6,0
 2024-01-03,SKU_SLOW_002,Pure Spanish Saffron Strands 1g,Gourmet,Slow,7,365,18.5,18.5,0.0,0,0,1,1,0,6,5,0
@@ -13229,6 +13249,7 @@ date,sku_id,product_name,category,velocity_class,lead_time_days,shelf_life_days,
 2025-12-28,SKU_SLOW_002,Pure Spanish Saffron Strands 1g,Gourmet,Slow,7,365,18.5,18.5,0.0,0,0,1,1,0,63,62,0
 2025-12-29,SKU_SLOW_002,Pure Spanish Saffron Strands 1g,Gourmet,Slow,7,365,18.5,18.5,0.0,0,0,0,0,0,62,62,0
 2025-12-30,SKU_SLOW_002,Pure Spanish Saffron Strands 1g,Gourmet,Slow,7,365,18.5,18.5,0.0,0,0,1,1,0,62,61,0
+2025-12-31,SKU_SLOW_002,Pure Spanish Saffron Strands 1g,Gourmet,Slow,7,365,18.5,18.5,0.0,0,0,2,2,0,61,59,0
 2024-01-01,SKU_SLOW_003,Traditional Dijon Mustard 200g,Gourmet,Slow,5,180,5.2,5.2,0.0,0,0,3,3,0,22,19,0
 2024-01-02,SKU_SLOW_003,Traditional Dijon Mustard 200g,Gourmet,Slow,5,180,5.2,5.2,0.0,0,0,2,2,0,19,17,0
 2024-01-03,SKU_SLOW_003,Traditional Dijon Mustard 200g,Gourmet,Slow,5,180,5.2,5.2,0.0,0,0,3,3,0,17,14,0
@@ -13959,6 +13980,7 @@ date,sku_id,product_name,category,velocity_class,lead_time_days,shelf_life_days,
 2025-12-28,SKU_SLOW_003,Traditional Dijon Mustard 200g,Gourmet,Slow,5,180,5.2,5.2,0.0,0,0,4,4,0,10,6,0
 2025-12-29,SKU_SLOW_003,Traditional Dijon Mustard 200g,Gourmet,Slow,5,180,5.2,5.2,0.0,0,0,1,1,0,31,30,0
 2025-12-30,SKU_SLOW_003,Traditional Dijon Mustard 200g,Gourmet,Slow,5,180,5.2,5.2,0.0,0,0,3,3,0,55,52,0
+2025-12-31,SKU_SLOW_003,Traditional Dijon Mustard 200g,Gourmet,Slow,5,180,5.2,5.2,0.0,0,0,2,2,0,52,50,0
 2024-01-01,SKU_SLOW_004,Madagascar Bourbon Vanilla Bean 2ct,Gourmet,Slow,7,365,14.0,14.0,0.0,0,0,2,2,0,9,7,0
 2024-01-02,SKU_SLOW_004,Madagascar Bourbon Vanilla Bean 2ct,Gourmet,Slow,7,365,14.0,14.0,0.0,0,0,1,1,0,7,6,0
 2024-01-03,SKU_SLOW_004,Madagascar Bourbon Vanilla Bean 2ct,Gourmet,Slow,7,365,14.0,14.0,0.0,0,0,0,0,0,6,6,0
@@ -14689,6 +14711,7 @@ date,sku_id,product_name,category,velocity_class,lead_time_days,shelf_life_days,
 2025-12-28,SKU_SLOW_004,Madagascar Bourbon Vanilla Bean 2ct,Gourmet,Slow,7,365,14.0,14.0,0.0,0,0,1,1,0,52,51,0
 2025-12-29,SKU_SLOW_004,Madagascar Bourbon Vanilla Bean 2ct,Gourmet,Slow,7,365,14.0,14.0,0.0,0,0,1,1,0,51,50,0
 2025-12-30,SKU_SLOW_004,Madagascar Bourbon Vanilla Bean 2ct,Gourmet,Slow,7,365,14.0,14.0,0.0,0,0,0,0,0,50,50,0
+2025-12-31,SKU_SLOW_004,Madagascar Bourbon Vanilla Bean 2ct,Gourmet,Slow,7,365,14.0,14.0,0.0,0,0,1,1,0,50,49,0
 2024-01-01,SKU_SLOW_005,Himalayan Pink Salt Grinder 250g,Gourmet,Slow,5,365,6.8,6.8,0.0,0,0,0,0,0,27,27,0
 2024-01-02,SKU_SLOW_005,Himalayan Pink Salt Grinder 250g,Gourmet,Slow,5,365,6.8,6.8,0.0,0,0,6,6,0,27,21,0
 2024-01-03,SKU_SLOW_005,Himalayan Pink Salt Grinder 250g,Gourmet,Slow,5,365,6.8,6.8,0.0,0,0,2,2,0,21,19,0
@@ -15419,6 +15442,7 @@ date,sku_id,product_name,category,velocity_class,lead_time_days,shelf_life_days,
 2025-12-28,SKU_SLOW_005,Himalayan Pink Salt Grinder 250g,Gourmet,Slow,5,365,6.8,6.8,0.0,0,0,4,4,0,98,94,0
 2025-12-29,SKU_SLOW_005,Himalayan Pink Salt Grinder 250g,Gourmet,Slow,5,365,6.8,6.8,0.0,0,0,5,5,0,94,89,0
 2025-12-30,SKU_SLOW_005,Himalayan Pink Salt Grinder 250g,Gourmet,Slow,5,365,6.8,6.8,0.0,0,0,7,7,0,89,82,0
+2025-12-31,SKU_SLOW_005,Himalayan Pink Salt Grinder 250g,Gourmet,Slow,5,365,6.8,6.8,0.0,0,0,5,5,0,82,77,0
 2024-01-01,SKU_SLOW_006,Aged Balsamic Vinegar 250ml,Gourmet,Slow,6,365,19.5,19.5,0.0,0,0,2,2,0,15,13,0
 2024-01-02,SKU_SLOW_006,Aged Balsamic Vinegar 250ml,Gourmet,Slow,6,365,19.5,19.5,0.0,0,0,3,3,0,13,10,0
 2024-01-03,SKU_SLOW_006,Aged Balsamic Vinegar 250ml,Gourmet,Slow,6,365,19.5,19.5,0.0,0,0,2,2,0,10,8,0
@@ -16149,3 +16173,4 @@ date,sku_id,product_name,category,velocity_class,lead_time_days,shelf_life_days,
 2025-12-28,SKU_SLOW_006,Aged Balsamic Vinegar 250ml,Gourmet,Slow,6,365,19.5,19.5,0.0,0,0,0,0,0,61,61,0
 2025-12-29,SKU_SLOW_006,Aged Balsamic Vinegar 250ml,Gourmet,Slow,6,365,19.5,19.5,0.0,0,0,2,2,0,61,59,0
 2025-12-30,SKU_SLOW_006,Aged Balsamic Vinegar 250ml,Gourmet,Slow,6,365,19.5,19.5,0.0,0,0,3,3,0,59,56,0
+2025-12-31,SKU_SLOW_006,Aged Balsamic Vinegar 250ml,Gourmet,Slow,6,365,19.5,19.5,0.0,0,0,2,2,0,56,54,0

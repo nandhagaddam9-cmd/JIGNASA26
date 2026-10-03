@@ -16,6 +16,9 @@ import plotly.express as px
 import plotly.graph_objects as go
 import streamlit as st
 
+# Add src to sys.path
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "src"))
+
 # Configure page
 st.set_page_config(
     page_title="Retail Inventory Reorder Assistant",
@@ -100,6 +103,27 @@ tab_reorder, tab_forecast, tab_features, tab_benchmark = st.tabs([
 with tab_reorder:
     st.subheader("Interactive Store Reorder Manifest")
     st.markdown("Review actionable purchase orders calculated from 7-day predicted demand, lead times, and specialized policy rules.")
+
+    # Daily POS Ingestion simulation expander
+    with st.expander("⚡ Daily POS Ingestion Pipeline (Simulate Morning Store Sync)", expanded=False):
+        st.markdown(
+            "**Simulate Morning Retail Routine:** Ingest yesterday's register barcode scans and closing shelf inventory, "
+            "dynamically transform the raw data into 37 model features (lags, rolling averages, promo signals), "
+            "run the trained Deep Learning ANN, and generate fresh purchase orders."
+        )
+        if st.button("🔄 Ingest Yesterday's Scanner Sales & Refresh Replenishment", type="primary"):
+            with st.spinner("Ingesting scanner receipts, building features, and running ANN inference..."):
+                from daily_ingestion import DailyRetailIngestionEngine, simulate_sample_new_day_data
+                engine = DailyRetailIngestionEngine(
+                    historical_raw_path=os.path.join(DATA_DIR, "retail_store_sales.csv"),
+                    model_path=os.path.join(DATA_DIR, "ann_model.pt"),
+                    feature_rankings_path=os.path.join(DATA_DIR, "feature_rankings.csv"),
+                )
+                mock_pos = simulate_sample_new_day_data(os.path.join(DATA_DIR, "retail_store_sales.csv"))
+                engine.run_morning_replenishment(new_pos_records=mock_pos)
+                st.cache_data.clear()
+                st.success(f"✓ Successfully ingested {len(mock_pos)} POS records for date {mock_pos['date'].iloc[0]} and generated updated purchase orders!")
+                st.rerun()
 
     f_col1, f_col2 = st.columns([1, 2])
     with f_col1:
