@@ -3,3 +3,5 @@ __pycache__/
 *.pyc
 .pytest_cache/
 .DS_Store
+presentation_master_deck.md
+generate_pptx.py
