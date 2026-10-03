@@ -1,0 +1,26 @@
+sku_id,product_name,category,velocity_class,current_stock,predicted_7d_demand,lead_time_days,safety_stock,reorder_point,recommended_order_qty,status,capital_required_usd,rule_applied
+SKU_FAST_003,Farm Fresh Eggs 12-Pack,Dairy,Fast,77,550.2,3,59,295,533,CRITICAL_STOCKOUT_RISK,2398.5,"Standard Continuous (s, S) Dynamic Safety Stock Rule"
+SKU_FAST_004,Diet Cola 2L,Beverages,Fast,124,575.8,3,52,299,504,CRITICAL_STOCKOUT_RISK,756.0,"Standard Continuous (s, S) Dynamic Safety Stock Rule"
+SKU_MED_008,Soft Toilet Paper 6-Mega Rolls,Household,Medium,0,358.8,3,37,191,396,CRITICAL_STOCKOUT_RISK,3524.4,"Standard Continuous (s, S) Dynamic Safety Stock Rule"
+SKU_MED_005,Dark Chocolate Bar 100g,Snacks,Medium,15,295.1,3,35,162,316,CRITICAL_STOCKOUT_RISK,916.4,"Standard Continuous (s, S) Dynamic Safety Stock Rule"
+SKU_SLOW_001,Organic White Truffle Oil 100ml,Gourmet,Slow,9,7.2,7,1,9,2,REORDER_RECOMMENDED,48.0,Intermittent / Croston-Poisson Min-Max Rule
+SKU_FAST_001,Fresh Whole Milk 1L,Dairy,Fast,555,800.3,2,67,296,0,HEALTHY,0.0,"Standard Continuous (s, S) Dynamic Safety Stock Rule [Capped by Perishability Shelf-Life]"
+SKU_FAST_002,Sliced White Bread 500g,Bakery,Fast,399,795.1,2,71,299,0,HEALTHY,0.0,"Standard Continuous (s, S) Dynamic Safety Stock Rule [Capped by Perishability Shelf-Life]"
+SKU_FAST_005,Organic Bananas 1kg,Produce,Fast,582,846.2,2,47,289,0,HEALTHY,0.0,"Standard Continuous (s, S) Dynamic Safety Stock Rule [Capped by Perishability Shelf-Life]"
+SKU_FAST_007,Natural Mineral Water 1.5L,Beverages,Fast,612,904.4,2,61,320,0,HEALTHY,0.0,"Standard Continuous (s, S) Dynamic Safety Stock Rule"
+SKU_FAST_008,Plain Greek Yogurt 500g,Dairy,Fast,326,396.1,3,40,210,0,HEALTHY,0.0,"Standard Continuous (s, S) Dynamic Safety Stock Rule"
+SKU_MED_001,Premium Ground Coffee 250g,Beverages,Medium,349,257.3,4,27,175,0,HEALTHY,0.0,"Standard Continuous (s, S) Dynamic Safety Stock Rule"
+SKU_MED_002,Crunchy Breakfast Cereal 400g,Pantry,Medium,457,275.3,4,36,194,0,HEALTHY,0.0,"Standard Continuous (s, S) Dynamic Safety Stock Rule"
+SKU_MED_003,Extra Virgin Olive Oil 750ml,Pantry,Medium,311,173.2,5,34,158,0,HEALTHY,0.0,"Standard Continuous (s, S) Dynamic Safety Stock Rule"
+SKU_MED_004,Concentrated Laundry Detergent 1.5L,Household,Medium,446,263.7,4,55,206,0,HEALTHY,0.0,"Standard Continuous (s, S) Dynamic Safety Stock Rule"
+SKU_MED_006,Italian Penne Pasta 500g,Pantry,Medium,389,341.0,4,47,242,0,HEALTHY,0.0,"Standard Continuous (s, S) Dynamic Safety Stock Rule"
+SKU_NEW_001,Matcha Sparkling Green Tea 330ml,Beverages,New,415,297.8,3,45,191,0,HEALTHY,0.0,Cold-Start Category-Analog Rule (1.5x Launch Buffer)
+SKU_NEW_003,Barista Oat Milk 1L,Dairy,New,180,394.3,2,27,98,0,HEALTHY,0.0,Cold-Start Category-Analog Rule (1.5x Launch Buffer)
+SKU_FAST_006,Salted Potato Chips 200g,Snacks,Fast,1201,513.7,4,84,378,0,OVERSTOCKED,0.0,"Standard Continuous (s, S) Dynamic Safety Stock Rule"
+SKU_MED_007,All-in-1 Dishwasher Pods 30ct,Household,Medium,644,195.9,5,39,179,0,OVERSTOCKED,0.0,"Standard Continuous (s, S) Dynamic Safety Stock Rule"
+SKU_NEW_002,Keto Almond Crunch Bar 50g,Snacks,New,296,227.5,3,18,75,0,OVERSTOCKED,0.0,Cold-Start Category-Analog Rule (1.5x Launch Buffer)
+SKU_SLOW_002,Pure Spanish Saffron Strands 1g,Gourmet,Slow,61,6.4,7,1,8,0,OVERSTOCKED,0.0,Intermittent / Croston-Poisson Min-Max Rule
+SKU_SLOW_003,Traditional Dijon Mustard 200g,Gourmet,Slow,52,19.8,5,1,16,0,OVERSTOCKED,0.0,Intermittent / Croston-Poisson Min-Max Rule
+SKU_SLOW_004,Madagascar Bourbon Vanilla Bean 2ct,Gourmet,Slow,50,6.0,7,1,7,0,OVERSTOCKED,0.0,Intermittent / Croston-Poisson Min-Max Rule
+SKU_SLOW_005,Himalayan Pink Salt Grinder 250g,Gourmet,Slow,82,23.1,5,1,18,0,OVERSTOCKED,0.0,Intermittent / Croston-Poisson Min-Max Rule
+SKU_SLOW_006,Aged Balsamic Vinegar 250ml,Gourmet,Slow,56,6.3,6,1,7,0,OVERSTOCKED,0.0,Intermittent / Croston-Poisson Min-Max Rule
